@@ -659,15 +659,16 @@
 
         <script>
             // Initialize Firebase
-            const Config = {
-            apiKey: "AIzaSyB0XAN9Zbh8IzVY-ijJZhSgmSGWjsORWnY",
-            authDomain: "undangan-digital-bafa0.firebaseapp.com",
-            projectId: "undangan-digital-bafa0",
-            storageBucket: "undangan-digital-bafa0.appspot.com",
-            messagingSenderId: "154219110717",
-            appId: "1:154219110717:web:492157e14221128d39e554",
-            measurementId: "G-6MZ71VF5RK"
-            };
+            var Config = {
+                databaseURL: "https://undangan-digital-bafa0-default-rtdb.asia-southeast1.firebasedatabase.app/",
+                apiKey: "AIzaSyB0XAN9Zbh8IzVY-ijJZhSgmSGWjsORWnY",
+                authDomain: "undangan-digital-bafa0.firebaseapp.com",
+                projectId: "undangan-digital-bafa0",
+                storageBucket: "undangan-digital-bafa0.appspot.com",
+                messagingSenderId: "154219110717",
+                appId: "1:154219110717:web:492157e14221128d39e554",
+                measurementId: "G-6MZ71VF5RK"
+                };
             firebase.initializeApp(config);
 
             // Menampilkan data dalam bentuk tabel
